@@ -3,6 +3,10 @@
 body{
     font-family: "Lato", sans-serif;
 }
+/*
+*{
+    margin: 0;
+}*/
 
 /*header styles*/
 
@@ -48,7 +52,129 @@ body{
     background: rgb(229, 84, 115);
     border: none;
 }
+.banner-left button:hover{
+    background: rgb(233, 43, 84);
+}
 .banner-right{
     margin-top: 50px;
     margin-right: 2px;
+}
+
+/*featured flower sec styles*/
+
+/*service section styles*/
+.service-container{
+    width: 1440px;
+    height: 320px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.service-box1{
+    width: 372px;
+    height: 147px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.service-box1 p{
+    width: 372px;
+    height: 35px;
+    color: rgba(39, 39, 39, 0.8);
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 600;
+}
+.service-box2{
+    width: 316px;
+    height: 147px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.service-box2 p{
+    width: 316px;
+    height: 35px;
+    color: rgba(39, 39, 39, 0.8);
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 600;
+}
+.service-box3{
+    width: 202px;
+    height: 147px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.service-box3 p{
+    width: 202px;
+    height: 35px;
+    color: rgba(39, 39, 39, 0.8);
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 600;
+}
+/*hotdeal sec styles*/
+.hotdeal-container{
+    width: 1922px;
+    height: 620px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin-top: 110px;
+    display: flex;
+    align-items: center;
+    
+
+}
+.hotdeal-texts{
+    width: 594px;
+    height: 228px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-right: 180px;
+    margin-left: 400px;
+}
+.hotdeal-texts h3{
+    width: 537px;
+    height: 48px;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+    margin-bottom: 24px;
+}
+
+.hotdeal-texts p{
+    width: 594px;
+    height: 60px;
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.hotdeal-texts button{
+    width: 155px;
+    height: 64px;
+    border-radius: 8px;
+    background: rgb(229, 84, 115);
+    color: rgb(255, 255, 255);
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 43px 20px 43px;
+    border: none;
+}
+
+.hotdeal-texts button:hover{
+    background: rgb(233, 43, 84);
 }
