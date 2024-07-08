@@ -182,7 +182,7 @@ body{
 /*insta sec styles*/
 
 /*subscribe sec styles*/
-.insta-container{
+.sub-container{
     width: 1440px;
     height: 449px;
     background-image: url('../images/latest-deals-bg.png');
@@ -194,17 +194,17 @@ body{
     align-items: center;
     justify-content: center;
 }
-.insta-content{
+.sub-content{
     width: 866px;
     height: 206px;
 }
-.insta-texts{
+.sub-texts{
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
 }
-.insta-texts h3{
+.sub-texts h3{
     width: 400px;
     height: 48px;
     color: rgb(39, 39, 39);
@@ -212,7 +212,7 @@ body{
     font-size: 40px;
     font-weight: 800;
 }
-.insta-texts p{
+.sub-texts p{
     width: 231px;
     height: 30px;
     color: rgba(39, 39, 39, 0.6);
@@ -221,12 +221,12 @@ body{
     font-weight: 400;
     margin-top: -20px;
 }
-.insta-sub{
+.sub-subscribe{
 
     display: flex;
     gap: 16px;
 }
-.insta-sub .email input{
+.sub-subscribe .email input{
     width: 700px;
     height: 64px;
     border-radius: 8px;
@@ -250,4 +250,44 @@ body{
 }
 .mail button:hover{
     background: rgb(233, 43, 84);
+}
+/*footer styles*/
+
+footer{
+    width: 1922px;
+    height: 449px;
+    background: rgb(17, 16, 16);
+    margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+footer h3{
+    width: 259px;
+    height: 58px;
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 800;
+    color:#FFFFFF;
+}
+footer h6{
+    width: 625px;
+    height: 60px;
+    color: rgba(255, 255, 255, 0.9);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+footer p{
+    margin-top: -10px;
+    width: 355px;
+    height: 19px;
+    color: rgba(255, 255, 255, 0.4);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
 }
