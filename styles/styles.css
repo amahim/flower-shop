@@ -178,3 +178,76 @@ body{
 .hotdeal-texts button:hover{
     background: rgb(233, 43, 84);
 }
+
+/*insta sec styles*/
+
+/*subscribe sec styles*/
+.insta-container{
+    width: 1440px;
+    height: 449px;
+    background-image: url('../images/latest-deals-bg.png');
+    border-radius: 8px;
+    margin: 0 auto;
+    margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.insta-content{
+    width: 866px;
+    height: 206px;
+}
+.insta-texts{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.insta-texts h3{
+    width: 400px;
+    height: 48px;
+    color: rgb(39, 39, 39);
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
+.insta-texts p{
+    width: 231px;
+    height: 30px;
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: -20px;
+}
+.insta-sub{
+
+    display: flex;
+    gap: 16px;
+}
+.insta-sub .email input{
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+}
+.mail button{
+    width: 150px;
+    height: 64px;
+    border-radius: 8px;
+    background: rgb(229, 84, 115);
+    color: rgb(255, 255, 255);
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+}
+.mail button:hover{
+    background: rgb(233, 43, 84);
+}
