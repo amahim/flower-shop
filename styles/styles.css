@@ -180,6 +180,47 @@ body{
 }
 
 /*insta sec styles*/
+.insta-titles{
+    width: 594px;
+    height: 132px;
+    margin: 0 auto;
+    margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.insta-titles h3{
+    width: 180px;
+    height: 48px;
+    color: rgb(39, 39, 39);
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: -8px;
+}
+.insta-titles p{
+    width: 594px;
+    height: 60px;
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 8px;
+    }
+/*insta grid*/
+.insta-grid{
+    width: 1440px;
+    height: 396px;
+    margin: 0 auto;
+    margin-top: 48px;
+}
+.insta-grid .pics{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
 /*subscribe sec styles*/
 .sub-container{
@@ -236,6 +277,8 @@ body{
     font-size: 16px;
     font-weight: 400;
     border: none;
+    padding: 0 0 0 20px;
+
 }
 .mail button{
     width: 150px;
