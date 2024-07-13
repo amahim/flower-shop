@@ -425,15 +425,35 @@ footer p{
         width: 100%;
     }
     .insta-grid .pics{
+        margin-left: 20px;
         display: flex;
         flex-direction: column;
         gap: 20px;
     }
     .insta-titles h3{
-        margin-right: 150px;
+        margin-right: 90px;
     }
     .insta-titles p{
         width: 400px;
-        margin-right: 150px;
+        margin-right: 90px;
     }
+    .service-container{
+        height: 1100px;
+        width: 320px;
+        margin-left: 100px;
+        flex-direction: column;
+    }
+    .service-box1{
+        margin-top: -100px;
+    }
+    .service-box1 img,.service-box2 img,.service-box3 img{
+        width: 200px;
+        height: 200px;
+    }
+    .service-box1 p, .service-box2 p,.service-box3 p{
+        width: 300px;
+        font-size: 16px;
+        margin-left: 60px;
+    }
+
 }
