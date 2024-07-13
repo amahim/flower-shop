@@ -425,22 +425,22 @@ footer p{
         width: 100%;
     }
     .insta-grid .pics{
-        margin-left: 20px;
+        margin-left: 70px;
         display: flex;
         flex-direction: column;
         gap: 20px;
     }
     .insta-titles h3{
-        margin-right: 90px;
+        margin-right: 70px;
     }
     .insta-titles p{
         width: 400px;
-        margin-right: 90px;
+        margin-right: 70px;
     }
     .service-container{
         height: 1100px;
         width: 320px;
-        margin-left: 100px;
+        margin-left: 115px;
         flex-direction: column;
     }
     .service-box1{
@@ -454,6 +454,36 @@ footer p{
         width: 300px;
         font-size: 16px;
         margin-left: 60px;
+    }
+    .hotdeal-container{
+        width: 100%;
+        height: 900px;
+        display: flex;
+        flex-direction: column;
+    }
+    .hotdeal-texts{
+        width: 500px;
+        height: 228px;
+        margin-left: 120px;
+    }
+    .hotdeal-texts h3{
+        width: 400px;
+        font-size: 30px;
+        margin-left: 40px;
+    }
+    
+    .hotdeal-texts p{
+        width: 500px;
+        height: 60px;
+        font-size: 15px;
+        font-weight: 400;
+        margin-left: 50px;
+    }
+    .hotdeal-texts button{
+        margin-left: 60px;
+    }
+    .hotdeal-pic{
+        margin-top: 120px;
     }
 
 }
