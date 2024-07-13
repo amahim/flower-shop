@@ -13,6 +13,7 @@ body{
 .banner-container{
     width: 1920px;
     height: 850px;
+    margin: 0 auto;
     background: rgba(229, 84, 115, 0.1);
     display: flex;
     justify-content: center;
@@ -412,4 +413,27 @@ footer p{
     font-family: Lato;
     font-size: 16px;
     font-weight: 400;
+}
+
+/*responsive*/
+.hide{
+    display: none;
+}
+@media screen and (max-width:576px) {
+    .insta-grid ,.pics, img{
+        height: 100%;
+        width: 100%;
+    }
+    .insta-grid .pics{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .insta-titles h3{
+        margin-right: 150px;
+    }
+    .insta-titles p{
+        width: 400px;
+        margin-right: 150px;
+    }
 }
