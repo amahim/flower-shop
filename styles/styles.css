@@ -415,10 +415,13 @@ footer p{
     font-weight: 400;
 }
 
-/*responsive*/
 .hide{
     display: none;
 }
+
+
+
+/*responsive*/
 @media screen and (max-width:576px) {
     .insta-grid ,.pics, img{
         height: 100%;
